@@ -1,1 +1,78 @@
-.vs
+# Visual Studio and VS Code
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vs/
+
+# Build outputs
+bin/
+obj/
+out/
+Debug/
+Release/
+
+# NuGet packages
+*.nupkg
+packages/
+project.lock.json
+project.assets.json
+global.json
+.nuget/
+
+# Entity Framework Migrations
+migrations/
+
+# ASP.NET Temporary files
+tmp/
+temp/
+logs/
+*.log
+
+# Rider IDE
+.idea/
+*.sln.iml
+
+# Configuration
+appsettings.json
+appsettings.Development.json
+secrets.json
+secrets/
+
+# IIS and Hosting
+*.vs/
+.vs/
+*._VSCodeCounter
+logs/
+wwwroot/uploads/
+
+# Node.js dependencies (if using frontend with npm)
+node_modules/
+npm-debug.log
+yarn.lock
+
+# Publish outputs
+publish/
+wwwroot/dist/
+wwwroot/node_modules/
+
+# Resharper and Rider
+*.DotSettings.user
+*.ReSharper/
+
+# JetBrains Rider
+.idea/
+
+# Testing
+TestResults/
+.coverage/
+.vstest/
+*.trx
+*.coverage
+
+# Database files
+*.mdf
+*.ldf
+*.db
+*.sqlite
